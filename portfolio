@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nandini's Portfolio</title>
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      font-size: 2rem;
+      margin: 10px 0;
+    }
+    header p {
+      margin: 5px 0;
+    }
+    .profile-pic {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 4px solid #0077ff;
+      margin-bottom: 15px;
+    }
+    .social-icons {
+      margin-top: 10px;
+    }
+    .social-icons a {
+      color: white;
+      font-size: 1.5rem;
+      margin: 0 10px;
+      transition: 0.3s;
+    }
+    .social-icons a:hover {
+      color: #0077ff;
+    }
+
+    /* Resume Button */
+    .resume-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #0077ff;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: 0.3s;
+    }
+    .resume-btn:hover {
+      background: #005fcc;
+    }
+
+    /* Navbar */
+    nav {
+      background: #444;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 1rem;
+      display: block;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      background: #0077ff;
+    }
+
+    /* Sections */
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #0077ff;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 0.5rem 0;
+    }
+
+    /* Skills */
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    .skills span {
+      background: #0077ff;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 15px;
+      font-size: 14px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      background: #222;
+      color: white;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="profile.jpg" alt="Nandini Photo" class="profile-pic">
+    <h1>Divakarla Varaha Venkata Parvathi Nandini</h1>
+    <p>BCA Student | Aspiring Data Analyst | Web Developer</p>
+    <p>📍 Visakhapatnam</p>
+    <div class="social-icons">
+      <a href="mailto:nandini4anil@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <!-- Download Resume Button -->
+    <a href="resume.pdf" download class="resume-btn"><i class="fas fa-download"></i> Download Resume</a>
+  </header>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="#objective">Career Objective</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#gap">Academic Gap</a>
+    <a href="#strengths">Strengths</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Sections -->
+  <section id="objective">
+    <h2>Career Objective</h2>
+    <p>Motivated and dedicated BCA student with a strong foundation in programming and web technologies. After a personal academic hiatus, I have resumed my education with focus and commitment. Eager to begin my career in IT and contribute to a dynamic team while continuously learning and growing in the field.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Bachelor of Computer Applications (BCA)</strong> – Aditya Degree College, Visakhapatnam (2023 – 2026, Pursuing)</li>
+      <li><strong>Intermediate (MPC)</strong> – Sri Chaitanya Junior College, Vizag (2017 – 2019)</li>
+      <li><strong>SSC</strong> – Little Cambridge School (2016 – 2017, 7.1 GPA)</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <span>Python</span>
+      <span>C</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>MS Office (Word, PowerPoint, Excel)</span>
+      <span>VS Code</span>
+    </div>
+  </section>
+
+  <section id="gap">
+    <h2>Academic Gap Explanation</h2>
+    <p>Took a gap break from education (2019–2023) due to marriage and family responsibilities. During this period, I focused on my responsibilities and personal growth. With my family’s support, I resumed my studies and am now fully committed to starting and growing in my career.</p>
+  </section>
+
+  <section id="strengths">
+    <h2>Languages & Strengths</h2>
+    <p><strong>Languages Known:</strong> English, Hindi, Telugu</p>
+    <p><strong>Strengths:</strong></p>
+    <ul>
+      <li>Quick learner and adaptable</li>
+      <li>Responsible and dedicated</li>
+      <li>Good communication and time management</li>
+      <li>Positive attitude and team spirit</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Declaration & Contact</h2>
+    <p>I hereby declare that the above information is true to the best of my knowledge and belief.</p>
+    <p><strong>Place:</strong> Visakhapatnam</p>
+    <p><strong>Name:</strong> Divakarla Varaha Venkata Parvathi Nandini</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Nandini | Portfolio Website</p>
+  </footer>
+
+</body>
+</html>
